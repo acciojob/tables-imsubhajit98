@@ -11,7 +11,7 @@
 	<!-- the entire body must be written by student -->
 	<div class="container">
 		<table id="total" class="table table-hover table-responsive" >
-			<caption>List of all transactions</caption>
+			<caption style="caption-side:top">List of all transactions</caption>
 			<thead class="table-dark">
 				<tr>
 					<th scope="col">#</th>
@@ -41,10 +41,12 @@
 				  </tr>
 			</tbody>
 			<tfoot class="table-light">
-				<tr>
-					<td colspan="3" class="text-end">Total</td>
-					<td>4000</td>
-				  </tr>
+				
+					<tr class="table-group-divider">
+						<td colspan="3" class="fw-bold text-end" id="total">Total</td>
+						<td class="fw-bold">4000</td>
+					</tr>
+				  
 			  </tfoot>
 		  </table>
 	</div>
